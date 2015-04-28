@@ -1,11 +1,18 @@
 .divClass{
+    display: block;
+    float: left;
     width: 100px;
     height: 100px;
-    float: left;
+    margin: 20px;
     position: relative;
+}
+.clear{
+    clear: both;
+    border: dashed;
 }
 #div1{
     background-color: red;
+    
 }
 
 #div2{
