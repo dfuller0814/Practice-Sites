@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-size: 100%;
+}
+.fixedWidth{
+    padding: 0px 16px;
+    margin: 0 auto;
+    height: 40px;
+    max-width: 976px;
+    background-color: blue;
+}   
+#topBarContainer{
+    background-color: yellow;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #CCC;
+}
+#logoDiv{
+    float: left;
+    position: relative;
+    height: 100%;
+    padding-right: 10px;
+    border-right: 1px solid #CCC;
+}
+#logoDiv img{
+    position: relative;
+    top: 7px;
+}
