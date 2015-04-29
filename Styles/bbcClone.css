@@ -1,14 +1,21 @@
 body{
     margin: 0;
     font-size: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 .fixedWidth{
     padding: 0px 16px;
     margin: 0 auto;
     height: 40px;
+    color: #404040;
     max-width: 976px;
-    background-color: blue;
-}   
+    background-color: white;
+    font-size: 80%;
+    font-weight: bold;
+    font-family: Arial,Helvetica,freesans,sans-serif;
+    line-height: 1.142;
+}
 #topBarContainer{
     background-color: yellow;
     width: 100%;
@@ -25,4 +32,19 @@ body{
 #logoDiv img{
     position: relative;
     top: 7px;
+}
+#signInDiv{
+    float: left;
+    position: relative;
+    max-height: 100%;
+    padding: 3px 90px 12px 22px;
+    border-right: 1px solid #CCC;
+}
+#signInDiv img{
+    position: relative;
+    top: 5px;
+    left: -5px;
+}
+#topmenudiv{
+    float: left;
 }
