@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Styles/salesforce1style.css">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
+  <title>Bootstrap Practice</title>
+
+  <style type="text/css">
+      .headerDiv{
+          border: 1px solid;
+      }
+      .headerText{
+          position: relative;
+          font-weight: bold;
+          font-size: 30px;
+      }
+
+  </style>
+
+
+  </head>
+  <body>
+  	<div id="page-container" class="container-fluid text-color-blk">
+        <!-- This is the container row for the header of the page with 12 columns -->
+      	<div class="row" id="header-container-row">
+        <!-- Specifying the 12 column length of the header container row -->
+            <div class="col-md-12">
+              <!-- Add nested row in the container row -->
+                <div class="row">
+                    <!-- Add div to cotain Header Text and input search field -->
+                    <div class="col-md-9">
+                        <apex:outputtext value="Zurora Community">
+                    </div>
+                </div>
+            </div>
+        </div>			 
+  </body>
+</html>
